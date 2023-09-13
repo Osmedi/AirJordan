@@ -20,17 +20,32 @@ background: repeating-radial-gradient(ellipse farthest-corner at center center, 
 
 }
 .links{
-    margin: auto;
-    width: 209px;
+    margin:  0 auto;
+    text-align: center;
+    
 }
 .links a{
-    color: #297a26;
+  text-decoration: none;
+    color: #000000;
     padding: 10px;
     font-size: 20px;
-    text-decoration-color: #00000073;
+    background-color: #00EEFF;
+    border-radius: 25px 0 25px 0;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.links a:hover{
+  background-color: #00eeff7a;
+  color: rgb(102, 102, 102);
 }
 .contenedor,.contenedor2,.contenedor3,.contenedor4{
     margin-top: 20px;
+}
+.boton-arriba{
+  position: fixed;
+  top: 900px;
+  display: none;
+  transition: display 0.3s ease-in-out;
 }
 /*-----------------el de color rojo-----------------------*/
 
