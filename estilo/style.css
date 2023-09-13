@@ -1,0 +1,270 @@
+body{
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor1{
+    background-color: #00000073;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 0px 20px 0px 20px;
+}
+.titulo{
+    text-align: center;
+    background: #FF0000;
+background: repeating-radial-gradient(ellipse farthest-corner at center center, #FF0000 0%, #00EEFF 0%, #DDFF00 98%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.links{
+    margin: auto;
+    width: 209px;
+}
+.links a{
+    color: #297a26;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration-color: #00000073;
+}
+.contenedor,.contenedor2,.contenedor3,.contenedor4{
+    margin-top: 20px;
+}
+/*-----------------el de color rojo-----------------------*/
+
+  .cajamadre {
+    background-color: rgb(255, 0, 0);
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  /*los numeros grandes 05 y 04*/
+  .cerocinco1 h1{
+    font-size: 100px;
+    margin-right: 429px;
+    margin-top: -315px;
+   
+  }
+  .cerocuatro h1{
+    font-size: 100px;
+    margin-top: 550px;
+  }
+  /*la caja que esta adentro de la grande*/
+  .cajahija{
+    background-color: rgb(255, 0, 0);
+    width: 600px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.397);
+
+  }
+  .cajahija p{
+    display: inline-block;
+    margin-left: 45px;
+  }
+  .cajahija p{
+    font-family: fantasy;
+  }
+  .cajahija img{
+    filter: drop-shadow(20px 60px 15px #00000080);
+
+  }
+  .cajahija h3{
+    font-size: 50px;
+  }
+  .cajahija .cerocinco2{
+    margin-top: -340px;
+    margin-right: 20px;
+  }
+  .cajahija .cerocuatro2{
+    margin-top: 340px;
+    margin-left: 20px;
+  }
+  @media screen and (max-width:800px ){
+    body{
+        .contenedor1{
+            width: 630px;
+        }
+    }
+    
+  }
+  
+
+/*-----------------el de color azul-----------------------*/
+
+.cajamadre2 {
+    background-color: rgb(158 183 213);
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  /*los numeros grandes 05 y 04*/
+  .cerocinco1 h1{
+    font-size: 100px;
+    margin-right: 429px;
+    margin-top: -315px;
+   
+  }
+  .cerocuatro h1{
+    font-size: 100px;
+    margin-top: 550px;
+  }
+  /*la caja que esta adentro de la grande*/
+  .cajahija2{
+    background-color:rgb(158 183 213);
+    width: 600px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.397);
+
+  }
+  .cajahija2 p{
+    display: inline-block;
+    margin-left: 45px;
+  }
+  .cajahija2 p{
+    font-family: fantasy;
+  }
+  .cajahija2 img{
+    filter: drop-shadow(20px 60px 15px #00000080);
+
+  }
+  .cajahija2 h3{
+    font-size: 50px;
+  }
+  .cajahija2 .cerocinco2{
+    margin-top: -340px;
+    margin-right: 20px;
+  }
+  .cajahija2 .cerocuatro2{
+    margin-top: 340px;
+    margin-left: 20px;
+  }
+  /*-----------------el de color colores-----------------------*/
+  .cajamadre3 {
+    background: linear-gradient(#FFFF00, #0000FF, #FF0000);   
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  /*los numeros grandes 05 y 04*/
+  .cerocinco1 h1{
+    font-size: 100px;
+    margin-right: 429px;
+    margin-top: -315px;
+   
+  }
+  .cerocuatro h1{
+    font-size: 100px;
+    margin-top: 550px;
+  }
+  /*la caja que esta adentro de la grande*/
+  .cajahija3{
+    background: linear-gradient(#FFFF00, #0000FF, #FF0000);    
+    width: 600px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.397);
+
+  }
+  .cajahija3 p{
+    display: inline-block;
+    margin-left: 45px;
+  }
+  .cajahija3 p{
+    font-family: fantasy;
+  }
+  .cajahija3 img{
+    filter: drop-shadow(20px 60px 15px #00000080);
+
+  }
+  .cajahija3 h3{
+    font-size: 50px;
+  }
+  .cajahija3 .cerocinco2{
+    margin-top: -340px;
+    margin-right: 20px;
+  }
+  .cajahija3 .cerocuatro2{
+    margin-top: 340px;
+    margin-left: 20px;
+  }
+  /*-----------------el de color verde-----------------------*/
+  .cajamadre4 {
+    background-color: rgb(171 229 0);
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  /*los numeros grandes 05 y 04*/
+  .cerocinco1 h1{
+    font-size: 100px;
+    margin-right: 429px;
+    margin-top: -315px;
+   
+  }
+  .cerocuatro h1{
+    font-size: 100px;
+    margin-top: 550px;
+  }
+  /*la caja que esta adentro de la grande*/
+  .cajahija4{
+    background-color: rgb(171 229 0);
+    width: 600px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.397);
+
+  }
+  .cajahija4 p{
+    display: inline-block;
+    margin-left: 45px;
+  }
+  .cajahija4 p{
+    font-family: fantasy;
+  }
+  .cajahija4 img{
+    filter: drop-shadow(20px 60px 15px #00000080);
+
+  }
+  .cajahija4 h3{
+    font-size: 50px;
+  }
+  .cajahija4 .cerocinco2{
+    margin-top: -340px;
+    margin-right: 20px;
+  }
+  .cajahija4 .cerocuatro2{
+    margin-top: 340px;
+    margin-left: 20px;
+  }
